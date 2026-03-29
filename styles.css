@@ -159,9 +159,16 @@ a:hover {
 
 .hero__actions {
   display: flex;
-  flex-wrap: wrap;
   gap: 0.75rem;
   justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.hero__actions .btn {
+  white-space: nowrap;
+  width: auto;
+  font-size: 0.875rem;
+  padding: 0.75rem 0.875rem;
 }
 
 .hero__trust {
