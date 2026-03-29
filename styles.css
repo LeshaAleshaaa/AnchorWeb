@@ -165,16 +165,9 @@ a:hover {
 }
 
 .hero__actions-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.hero__actions-row .btn {
-  flex: 1 1 0;
-  min-width: 0;
-  text-align: center;
 }
 
 .hero__actions .btn {
