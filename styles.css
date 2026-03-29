@@ -94,7 +94,12 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 0.1rem;
+  gap: 0.2rem;
+}
+
+.header__phone:last-child {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
 }
 
 .header__phone {
@@ -496,7 +501,7 @@ a:hover {
 
 .portfolio__item {
   display: block;
-  width: 480px;
+  width: 700px;
   max-width: 100%;
   color: inherit;
   text-decoration: none;
@@ -981,6 +986,7 @@ main.container a:hover,
 
   .hero__actions {
     flex-direction: column;
+    align-items: center;
   }
 
   .btn {
