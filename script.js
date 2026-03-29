@@ -99,7 +99,7 @@
 
   var burger = document.querySelector('.burger');
   var nav = document.querySelector('.nav');
-  var headerPhone = document.querySelector('.header__phone');
+  var headerPhone = document.querySelector('.header__phones');
 
   if (burger && nav) {
     burger.addEventListener('click', function () {
